@@ -18,8 +18,13 @@
 
     nav.classList.toggle('scrolled', pastHero);
 
+    var isMobile = window.innerWidth <= 768;
     if (homeLink) {
-      homeLink.style.display = pastHero ? '' : 'none';
+      if (isMobile) {
+        homeLink.style.display = 'none';
+      } else {
+        homeLink.style.display = pastHero ? '' : 'none';
+      }
     }
 
     if (heroBg && window.scrollY < window.innerHeight) {
