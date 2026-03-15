@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adhin C | AI, ML & Automation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Nav -->
+  <header class="nav">
+    <div class="nav-brand-pill">
+      <a href="#home" class="nav-brand">Adhin</a>
+    </div>
+    <nav class="nav-links-pill">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#experience" class="nav-link">Experience</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="home" class="hero">
+    <div class="hero-bg">
+      <img class="hero-bg-img" src="assets/hero-background.png" alt="" onerror="this.onerror=null;this.src='hero-background.png';" />
+      <div class="hero-overlay"></div>
+    </div>
+
+    <div class="hero-panel-wrap">
+      <div class="hero-panel">
+        <div class="glow glow-purple"></div>
+        <div class="glow glow-blue"></div>
+        <h1 class="hero-heading">Hi, I'm Adhin C</h1>
+        <p class="hero-sub">AI, ML &amp; Automation Engineer</p>
+        <p class="hero-desc">AI &amp; ML enthusiast building RAG-driven automation with n8n, FastAPI, and vector databases. Passionate about production-grade AI systems.</p>
+        <div class="hero-btns">
+          <a href="#projects" class="btn btn-fill">View Projects</a>
+          <a href="https://github.com/adhin08" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+          <a href="assets/Adhin_C_Resume.pdf" download class="btn btn-ghost">Download Resume</a>
+        </div>
+      </div>
+    </div>
+
+    <a href="#experience" class="scroll-arrow" aria-label="Scroll down">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
+    </a>
+  </section>
+
+  <!-- Experience -->
+  <section id="experience" class="section-dark">
+    <div class="section-inner">
+      <h2 class="fold-title">Experience</h2>
+      <div class="card">
+        <h3 class="card-name">Artificial Intelligence Intern</h3>
+        <p class="card-meta">EDIGLOBE &middot; Jan 2025 &ndash; Feb 2025</p>
+        <ul class="card-list">
+          <li>Developed and optimized ML models for car price prediction and market basket analysis using Python.</li>
+          <li>Worked with Scikit-Learn, TensorFlow, and data visualization tools to improve model selection and performance.</li>
+          <li>Collaborated with a team to refine feature engineering and validation processes.</li>
+        </ul>
+      </div>
+
+      <h3 class="edu-heading">Education</h3>
+      <div class="card">
+        <h3 class="card-name">B.Tech in Computer Science and Engineering</h3>
+        <p class="card-meta">Government Engineering College Wayanad &middot; 2023 &ndash; 2027</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects + Skills -->
+  <section class="below-fold">
+    <div id="projects" class="fold-col fold-left">
+      <h2 class="fold-title">Projects</h2>
+
+      <div class="card">
+        <h3 class="card-name">RealFlow AI</h3>
+        <p class="card-meta">FastAPI &middot; RAG &middot; ChromaDB &middot; OpenRouter &middot; n8n</p>
+        <p class="card-desc">RAG-powered n8n workflow generator over 2,057 curated templates with reranking, schema validation, and confidence scoring. Outputs production-ready JSON for direct import.</p>
+        <div class="card-actions">
+          <a href="https://realflow-ai-q5qd.onrender.com" target="_blank" rel="noopener" class="card-link-label">Live Demo &rarr;</a>
+          <a href="https://github.com/adhin08/RealFlow_AI" target="_blank" rel="noopener" class="card-link-label">View Repo &rarr;</a>
+        </div>
+      </div>
+
+      <a href="https://github.com/adhin08/Car_Price_Prediction" target="_blank" rel="noopener" class="card card-link">
+        <h3 class="card-name">Car Price Prediction</h3>
+        <p class="card-meta">XGBoost &middot; Python &middot; Scikit-Learn &middot; Matplotlib</p>
+        <p class="card-desc">XGBoost-based regression model predicting car prices with ~86% accuracy. Includes data preprocessing, feature engineering, and hyperparameter tuning.</p>
+        <span class="card-link-label">View Repo &rarr;</span>
+      </a>
+
+      <a href="https://github.com/adhin08/Market_Basket_Analysis" target="_blank" rel="noopener" class="card card-link">
+        <h3 class="card-name">Market Basket Analysis</h3>
+        <p class="card-meta">UCI Online Retail &middot; Apriori &middot; Association Rules</p>
+        <p class="card-desc">Analyzed 541,909 transactions to uncover purchasing patterns using Apriori algorithm and association rules (lift, confidence, support).</p>
+        <span class="card-link-label">View Repo &rarr;</span>
+      </a>
+    </div>
+
+    <div id="skills" class="fold-col fold-right">
+      <h2 class="fold-title">Skills</h2>
+      <div class="badges">
+        <span class="badge">Python</span>
+        <span class="badge">TensorFlow</span>
+        <span class="badge">Scikit-Learn</span>
+        <span class="badge">XGBoost</span>
+        <span class="badge">FastAPI</span>
+        <span class="badge">n8n</span>
+        <span class="badge">RAG</span>
+        <span class="badge">ChromaDB</span>
+        <span class="badge">OpenAI APIs</span>
+        <span class="badge">NumPy</span>
+        <span class="badge">Pandas</span>
+        <span class="badge">Matplotlib</span>
+        <span class="badge">Seaborn</span>
+        <span class="badge">Flask</span>
+        <span class="badge">Git &amp; GitHub</span>
+        <span class="badge">Jupyter</span>
+        <span class="badge">C</span>
+        <span class="badge">Java</span>
+      </div>
+
+      <h3 class="cert-heading">Certifications</h3>
+      <div class="badges">
+        <a href="https://www.coursera.org/account/accomplishments/verify/YOUR_COURSERA_CERT_ID" target="_blank" rel="noopener" class="badge badge-cert badge-link">ML by Andrew Ng (Coursera) &rarr;</a>
+        <a href="https://example.com/ediglobe-cert-1" target="_blank" rel="noopener" class="badge badge-cert badge-link">AI Certification &ndash; Ediglobe (1) &rarr;</a>
+        <a href="https://example.com/ediglobe-cert-2" target="_blank" rel="noopener" class="badge badge-cert badge-link">AI Certification &ndash; Ediglobe (2) &rarr;</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="contact">
+    <h2 class="fold-title">Get in Touch</h2>
+    <p class="contact-text">Interested in collaborating or have a project in mind? Let's connect.</p>
+    <div class="contact-links">
+      <a href="https://mail.google.com/mail/?view=cm&to=adhin.csan@gmail.com" target="_blank" rel="noopener" class="btn btn-fill">Email Me</a>
+      <a href="https://linkedin.com/in/adhin-c-48160a346/" target="_blank" rel="noopener" class="btn btn-ghost">LinkedIn</a>
+      <a href="https://github.com/adhin08" target="_blank" rel="noopener" class="btn btn-ghost">GitHub</a>
+    </div>
+    <p class="contact-info">Manjeri, India &middot; +91 99955 20686</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>Designed for Adhin C | &copy; 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
